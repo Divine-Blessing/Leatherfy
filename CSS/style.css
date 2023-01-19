@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #FFFFFF;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #005AC1;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 13vh;
+    padding: 0 55px;
+    z-index: 1000;
+}
+nav .logo{
+    height: 85px;
+}
+nav .links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1000;
+}
+nav .links a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    bottom: -5px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 500ms ease-in-out ;
+}
+nav .links a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+nav .icons{
+    z-index: 100;
+}
+nav .icon{
+    height: 25px;
+    margin: 0 25px;
+    cursor: pointer;
+    z-index: 100;
+}
+#one{
+    min-height: 90vh;
+    background-color: #FFFFFF;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+#one .abs-img{
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+    height: 45rem;
+}
+#one .top{
+    min-height: 30vh;
+}
+#one .bottom{
+    background-color: #005AC1;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7rem;
+}
+#one .bottom .left, #one .bottom .right{
+    width: 50%;
+}
+#one .bottom h1{
+    font-size: 30px;
+    font-weight: 600;
+    width: 50%;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#one .bottom p{
+    width: 50%;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+}
+#one .bottom a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    letter-spacing: .5px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+#one .bottom a:hover{
+    color: white;
+    font-weight: 600;
+}
+#one .bottom a img{
+    margin-left: 10px;
+    height: 15px;
+}
+/* SECOND SECTION */
+#two{
+    min-height: 180vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+#two .one-div{
+    height: 55vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#two .one-div h2{
+    width: 80%;
+}
+#two .bg-bag{
+    background-color: #8B7773;
+    position: relative;
+    height: 8rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#two .bg-bag img{
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: -20px;
+}
+#two h1{
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 1.5rem;
+}
+#two h2{
+    font-weight: 400;
+    font-size: 17px;
+    margin: 5px 0;
+    line-height: 25px;
+}
+#two a{
+    color: black;
+    background: #005AC1;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#two a:hover{
+    background-color: #ba1a1aaf;
+}
+#two .one-div span{
+    color: #BA1A1A;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+#two .two-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 42rem;
+    width: 40%;
+}
+#two .two-div .bg-bag2{
+    background-color: #BC706A;
+    position: relative;
+    height: 8rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#two .two-div .bg-bag2 img{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+#two .two-div h2{
+    font-weight: 400;
+    font-size: 17px;
+    margin: 5px 0;
+    width: 80%;
+    line-height: 25px;
+}
+#two .three-div{
+    width: 40%
+}
+#two .three-div h2{
+    width: 80%;
+}
+#two .three-div .bg-bag3{
+    background-color: #C16E47;
+    position: relative;
+    height: 8rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#two .three-div .bg-bag3 img{
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+#two .one-div:hover .bg-bag{
+    background-color: #BC706A;
+}
+#two .one-div:hover img,
+#two .two-div:hover img,
+#two .three-div:hover img{
+    zoom: 90%;
+    transition: all 500ms ease-in-out;
+}
+#two .two-div:hover .bg-bag2,
+#two .two-div a:hover{
+    background-color: #BA1A1A;
+}
+#two .three-div:hover .bg-bag3,
+#two .three-div a:hover{
+    background-color: #8B7773;
+}
+/* THIRD SECTION */
+#third{
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+#third h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    font-family: 'Work Sans', sans-serif;  
+}
+#third .advert{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 9rem;
+    width: 100%;
+    height: 10rem;
+    margin-top: 6rem;
+    background-color: #005AC1;
+    position: relative;
+}
+#third .advert img{
+    height: 160px;
+}
+#third .advert h3{
+    font-size: 17px;
+    font-weight: 500;
+}
+#third .advert .bag-one h3{
+    margin-top: 1.5rem;
+}
+#third .advert .bag-two h3{
+    margin-top: 15px;
+}
+#third .advert span{
+    color: white;
+    font-size: 18px;
+    margin-top: .3rem;
+}
+#third .advert .bag-one, 
+#third .advert .bag-two, 
+#third .advert .bag-three,
+#third .advert .bag-four{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: grab;
+    transition: all 250ms ease-in-out;
+}
+#third .advert .bag-one:hover, 
+#third .advert .bag-two:hover, 
+#third .advert .bag-three:hover,
+#third .advert .bag-four:hover{
+    bottom: 35px;
+}
+#third .advert .bag-one{
+    left: 7rem;
+}
+#third .advert .bag-two{
+    left: 23rem;
+}
+#third .advert .bag-three{
+    right: 34rem;
+}
+#third .advert .bag-four{
+    right: 18rem;
+}
+#third .advert .btn-img{
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+#third .advert .btn-img:hover{
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+}
+footer{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+footer .footer{
+    background-color: #005AC1;
+    height: 55vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h1{
+    font-family: 'Work Sans', sans-serif;
+    color: #2B2929;
+    font-size: 25px;
+    font-weight: 600;
+}
+footer h2{
+    font-family: 'Roboto', sans-serif;
+    color: #2B2929;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    width: 50%;
+    margin: 10px 0 20px 0;
+}
+footer form{
+    display: flex;
+}
+footer input{
+    height: 45px;
+    width: 260px;
+    padding: 0 10px;
+    outline: none;
+}
+footer input::placeholder{
+    padding: 0 10px;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+}
+footer button{
+    background-color: #BA1A1A;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color: #f11c1c;
+}
+footer span{
+    color: #BA1A1A;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+footer h3{
+    font-weight: 500;
+    font-size: 17px;
+    color: #2B2929;
+    margin-top: 1.5rem;
+}
+footer hr{
+    height: 2px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .icons img{
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: all 200ms ease-out;
+}
+footer .icons img:hover{
+    zoom: 70%;
+}
+footer .icons .fb{
+    height: 30px;
+}
+footer .icons .ig{
+    height: 35px;
+}
+footer .icons .twi{
+    height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/* THANKS.HTML */
+#thanks{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#thanks .thanks-html{
+    min-height: 10vh;
+
+    /* background-color: #BA1A1A; */
+    width: 60%;
+    box-shadow: .5rem .5rem 1rem black;
+}
+#thanks .thanks-html h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: #BA1A1A;
+}
