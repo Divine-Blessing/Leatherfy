@@ -448,22 +448,36 @@ footer .icons .twi{
 
 /* THANKS.HTML */
 #thanks{
-    background-color: white;
+    background-color: #2B2929;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Work Sans', sans-serif;
 }
 #thanks .thanks-html{
-    min-height: 10vh;
-
-    /* background-color: #BA1A1A; */
-    width: 60%;
-    box-shadow: .5rem .5rem 1rem black;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.5);
 }
 #thanks .thanks-html h1{
     font-size: 30px;
     font-weight: 600;
-    font-family: 'Work Sans', sans-serif;
     color: #BA1A1A;
+}
+#thanks .thanks-html a{
+    color: #FFFFFF;
+    margin: .5rem 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+#thanks .thanks-html a:hover{
+    color: #BA1A1A;
+}
+.invinsible{
+    text-decoration: none;
 }
