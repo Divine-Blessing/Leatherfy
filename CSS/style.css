@@ -1219,3 +1219,140 @@ footer .icons .twi{
         height: 18px;
     }
 }
+
+
+@media(max-width: 465px){
+    #one{
+        min-height: 50vh;
+    }
+    #one .top{
+        min-height: 18vh;
+    }
+    #one .bottom{
+        min-height: 32vh;
+    }
+    #one .abs-img{
+        right: .02rem;
+        height: 19rem;
+    }
+    #one .bottom h1{
+        line-height: 22px;
+        font-size: 15px;
+        margin: 5px 0;
+    }
+    #one .bottom p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #one .bottom a{
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+    #one .bottom a img{
+        height: 10px;
+    }
+    #two{
+        min-height: 135vh;
+    }
+    #two a{
+        margin-top: .3rem;
+        height: 25px;
+        width: 80px;
+        font-size: 13px;
+    }
+    #two .one-div,
+    #two .three-div{
+        height: 43vh;
+    }
+    #two h1{
+        font-size: 13px;
+    }
+    #two .one-div h2,
+    #two .two-div h2,
+    #two .three-div h2{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    #two .bg-bag, 
+    #two .two-div .bg-bag2,
+    #two .three-div .bg-bag3{
+        width: 10rem;
+        height: 4rem;
+    }
+    #two .bg-bag img{
+        height: 100px;
+        left: 25px;
+    }
+    #two .two-div .bg-bag2 img,
+    #two .three-div .bg-bag3 img{
+        height: 110px;
+    }
+    #two .two-div{
+        margin-left: 13rem;
+        min-height: 41vh;
+    }
+    #third h1{
+        font-size: 17px;
+        margin: 0 0 2rem 0;
+    }
+    #third .advert img{
+        height: 80px;
+    }
+    #third .advert h3{
+        line-height: 15px;
+    }
+    #third .advert .bag-one{
+        left: .1rem;
+    }
+    #third .advert .bag-two{
+        left: 7.5rem;
+    }
+    #third .advert .bag-three{
+        right: 10rem;
+    }
+    #third .advert .bag-four{
+        right: 3.3rem;
+    }
+    #third .advert .btn-img{
+        height: 25px;
+        width: 25px;
+        padding: 5px;
+    }
+    #third .advert .btn-img:hover{
+        padding: 2px;
+        height: 20px;
+        width: 20px;
+    }
+    footer .footer h1{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 435px){
+    #third .advert .bag-one{
+        left: .05rem;
+    }
+    #third .advert .bag-two{
+        left: 7rem;
+    }
+    #third .advert .bag-three{
+        right: 9rem;
+    }
+    #third .advert .bag-four{
+        right: 3rem;
+    }
+    footer input{
+        width: 150px;
+    }
+    footer button{   
+        width: 70px;
+    }
+    footer hr{
+        margin: 10px 0;
+        height: 1px;
+    }
+}
+
+@media(max-width: 410px){
+    
+}
