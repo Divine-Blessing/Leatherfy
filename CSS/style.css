@@ -990,3 +990,232 @@ footer .icons .twi{
         right: 5rem;
     }
 }
+
+@media(max-width: 560px){
+    nav{
+        height: 10vh;
+        padding: 0 25px;
+    }
+    nav .logo{
+        height: 60px;
+    }
+    nav .links a{
+        font-size: 12px;
+        margin: 0 8px;
+    }
+    nav .icon{
+        height: 16px;
+    }
+    #one .abs-img{
+        right: .1rem;
+        height: 26rem;
+    }
+    #one .bottom{
+        padding: 0 2rem;
+    }
+    #one .bottom h1{
+        font-size: 18px;
+    }
+    #one .bottom p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #one .bottom a{
+        margin-top: 2.5rem;
+        font-size: 14px;
+    }
+    #two a{
+        font-size: 14px;
+    }
+    #two h1{
+        font-size: 17px;
+        width: 90%;
+    }
+    #two .bg-bag, 
+    #two .two-div .bg-bag2,
+    #two .three-div .bg-bag3{
+        width: 12rem;
+    }
+    #two .bg-bag img{
+        height: 130px;
+        left: 30px;
+    }
+    #two .one-div h2,
+    #two .two-div h2,
+    #two .three-div h2{
+        width: 90%;
+        text-align: justify;
+    }
+    #two .two-div{
+        margin-left: 18rem;
+        min-height: 48vh;
+    }
+    #two .three-div .bg-bag3 img{
+        left: 20px;
+    }
+    #third h1{
+        font-size: 20px;
+    }
+    #third .advert{
+        padding: 0 25px;
+    }
+    #third .advert img{
+        height: 100px;
+    }
+    #third .advert h3{
+        font-size: 11px;
+    }
+    #third .advert span{
+        font-size: 11px;
+    }
+    #third .advert .bag-one{
+        left: .5rem;
+    }
+    #third .advert .bag-two{
+        left: 8.5rem;
+    }
+    #third .advert .bag-three{
+        right: 12rem;
+    }
+    #third .advert .bag-four{
+        right: 4rem;
+    }
+    footer .footer{
+        height: 45vh;
+    }
+    footer h2{
+        width: 80%;
+    }
+    footer input{
+        width: 170px;
+        font-size: 13px;
+    }
+    footer button{   
+        font-weight: 400;
+    }
+    footer h3{
+        font-size: 14px;
+    }
+    footer hr{
+        margin: 13px 0;
+    }
+    footer .icons .fb{
+        height: 23px;
+    }
+    footer .icons .ig{
+        height: 28px;
+        margin: 0 0 ;
+    }
+    footer .icons .twi{
+        height: 21px;
+    }
+}
+
+@media(max-width: 500px){
+    nav{
+        padding: 0 20px;
+    }
+    nav .logo{
+        height: 45px;
+    }
+    nav .links a{
+        font-size: 10px;
+        margin: 0 6px;
+    }
+    nav .icon{
+        height: 14px;
+    }
+    #one .abs-img{
+        right: .05rem;
+        height: 24rem;
+    }
+    #one .bottom h1{
+        font-size: 17px;
+    }
+    #one .bottom p{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    #one .bottom a{
+        margin-top: 1.5rem;
+        font-size: 13px;
+    }
+    #two{
+        min-height: 155vh;
+    }
+    #two h1{
+        font-size: 15px;
+        width: 90%;
+    }
+    #two .one-div h2,
+    #two .two-div h2,
+    #two .three-div h2{
+        font-size: 13px;
+    }
+    #two .two-div{
+        margin-left: 15rem;
+        min-height: 48vh;
+    }
+    #two .three-div .bg-bag3 img{
+        left: 20px;
+    }
+    #third .advert{
+        padding: 0 20px;
+    }
+    #third .advert img{
+        height: 90px;
+    }
+    #third .advert h3{
+        line-height: 16px;
+    }
+    #third .advert .bag-one{
+        left: .2rem;
+    }
+    #third .advert .bag-two{
+        left: 8rem;
+    }
+    #third .advert .bag-three{
+        right: 10.3rem;
+    }
+    #third .advert .bag-four{
+        right: 3.3rem;
+    }
+    footer{
+        min-height: 45vh;
+    }
+    footer .footer{
+        height: 42vh;
+    }
+    footer h2{
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    footer input{
+        width: 160px;
+        height: 30px;
+        font-size: 12px;
+    }
+    footer input::placeholder{
+        font-size: 12px;
+    }
+    footer button{
+        height: 30px;
+        font-size: 11px;
+    }
+    footer h3{
+        font-size: 13px;
+    }
+    footer hr{
+        margin: 12px 0;
+    }
+    footer .icons .fb{
+        height: 20px;
+    }
+    footer .icons .ig{
+        height: 25px;
+    }
+    footer .icons .twi{
+        height: 18px;
+    }
+}
